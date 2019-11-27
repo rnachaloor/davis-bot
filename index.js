@@ -28,11 +28,11 @@ client.on('message', message => {
         message.channel.send("Just sent it");
     }
 
-    /* if (message.content === prefix){
+    if (message.content === prefix){
         for (x = 0; x < 5; x++) {
-            message.channel.send('<@326427639294459905>');
+            author.sendMessage("Your Stupid")
         }
-    }*/
+    }
 })
 
 client.login(process.env.BOT_TOKEN);
