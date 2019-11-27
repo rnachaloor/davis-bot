@@ -1,0 +1,16 @@
+{
+  "name": "davis-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rohit Nachaloor",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "nodemon": "^1.19.2"
+  }
+}
