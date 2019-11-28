@@ -22,7 +22,7 @@ client.on('message', message => {
             }
         }
         mentionMessage = message.content.slice (5);
-        for (x = 0; x < 1; x++) {
+        for (x = 0; x < 5; x++) {
             mention.sendMessage (mentionMessage);
         }
         message.channel.send("Just sent it");
@@ -30,7 +30,7 @@ client.on('message', message => {
 
     if (message.content === prefix){
         for (x = 0; x < 5; x++) {
-            author.sendMessage("Your Stupid")
+            message.author.send("Your Stupid")
         }
     }
 })
