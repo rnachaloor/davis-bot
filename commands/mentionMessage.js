@@ -3,6 +3,7 @@ module.exports = {
     description: 'Annoys mentioned user with repeated messages.',
     execute(message, args) {
         var mention = message.mentions.users.first();
+        const prefix = "!roth";
 
         if (message.content.startsWith (prefix)) {
             if (mention == null) { return; }
